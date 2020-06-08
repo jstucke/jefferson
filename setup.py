@@ -1,9 +1,6 @@
-#!/usr/bin/env python
-# coding=utf-8
-
 from distutils.core import setup
 
-version = '0.2'
+version = '0.3'
 
 setup(
     name='jefferson',
@@ -17,4 +14,5 @@ setup(
     packages=['jefferson'],
     package_dir={'jefferson': 'src/jefferson'},
     scripts=['src/scripts/jefferson'],
+    python_requires='>=3.6',
 )

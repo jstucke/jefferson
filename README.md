@@ -1,21 +1,19 @@
 # jefferson
-JFFS2 filesystem extraction tool
+JFFS2 filesystem extraction tool for Python3.
 
 Installation
 ============
 ```bash
-$ sudo python setup.py install
+$ sudo python3 setup.py install
 ```
 
 
 Dependencies
 ============
 - `cstruct`
-- `pyliblzma`
 
 ```bash
-$ sudo pip install cstruct
-$ sudo apt-get install python-lzma
+$ sudo pip3 install cstruct
 ```
 
 Features
